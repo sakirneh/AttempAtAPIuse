@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "x2PYJ6ZrFW6IS62qS62PYgdHPIYELyalchUEwi6cCY3ibU2oSMqHdln2X7Rd7sHScScOZbAbX+SnrrhsbGVrxg==",
+  "success": true,
+  "projectFilePath": "E:\\book practice programming\\coinmarketAPI\\APIuseTest\\APIuseTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\uga buga 2\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
