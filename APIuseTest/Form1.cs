@@ -19,7 +19,7 @@ namespace APIuseTest
         {
             txtbox.Clear(); // clears the previous text from the loop to avoid clutter.
             HttpClient client = new HttpClient(); // creates a new Http client to allow program to make calls and reviece data.
-            HttpResponseMessage response = await client.GetAsync("https://marketdata.tradermade.com/api/v1/live?currency=GBPUSD,EURUSD,GBPCNY,GBPJPY,GBPETH&api_key=6a9-IgOHvyU0YzvJyIL4"); //GBP to USD, EUR to USD, GBP to CNY, GBP to JPY, GBP to ETH
+            HttpResponseMessage response = await client.GetAsync("https://marketdata.tradermade.com/api/v1/live?currency=GBPUSD,EURUSD,GBPCNY,GBPJPY,ETHGBP,BTCGBP&api_key=6a9-IgOHvyU0YzvJyIL4"); //GBP to USD, EUR to USD, GBP to CNY, GBP to JPY, GBP to ETH
             response.EnsureSuccessStatusCode(); // checks if the call was successful.
             var responseBody = await response.Content.ReadAsStringAsync();
 
